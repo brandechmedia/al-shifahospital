@@ -1,4 +1,4 @@
-import AdvancedHystroscopySurgery from '../../assets/Specialities/AdvancedHystroscopySurgery.JPG'
+import AdvancedHystroscopySurgery from '../../assets/Specialities/AdvancedHystroscopySurgery.jpg'
 function HysteroscopicSurgery() {
   return (
     <div className="max-w-6xl mx-auto px-4 py-10 text-gray-800">

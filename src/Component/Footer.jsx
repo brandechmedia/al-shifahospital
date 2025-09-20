@@ -18,7 +18,7 @@ const Footer = () => {
           {/* <div className="flex flex-wrap md:text-left order-first"> */}
 
           <div className="lg:w-1/4 md:w-1/2 w-full md:px-4">
-            <h2 className="text-teal-200 font-asap font-bold text-2xl mt-10 relative inline-block after:block after:h-[2px] after:bg-white after:scale-x-0 after:transition-transform after:duration-300 after:origin-left hover:after:scale-x-100">
+            <h2 className="text-teal-200 font-asap font-semibold text-2xl mt-10 relative inline-block after:block after:h-[2px] after:bg-white after:scale-x-0 after:transition-transform after:duration-300 after:origin-left hover:after:scale-x-100">
               Our Specialities
             </h2>
             <ul class="text-gray-200  flex flex-col mt-2 space-y-2 text-base">
@@ -123,7 +123,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="lg:w-1/6 md:w-1/3 w-full md:px-4">
-            <h2 className="text-teal-200 font-asap font-bold text-2xl mt-10 relative inline-block after:block after:h-[2px] after:bg-white after:scale-x-0 after:transition-transform after:duration-300 after:origin-left hover:after:scale-x-100 ">
+            <h2 className="text-teal-200 font-asap font-semibold text-2xl mt-10 relative inline-block after:block after:h-[2px] after:bg-white after:scale-x-0 after:transition-transform after:duration-300 after:origin-left hover:after:scale-x-100 ">
               Facilities
             </h2>
             <ul class="text-gray-200 flex flex-col mt-2 space-y-2 text-base">
@@ -163,7 +163,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="lg:w-1/6 md:w-1/3 w-full md:px-4">
-            <h2 className="text-teal-200 font-asap font-bold text-2xl mt-10 relative inline-block after:block after:h-[2px] after:bg-white after:scale-x-0 after:transition-transform after:duration-300 after:origin-left hover:after:scale-x-100">
+            <h2 className="text-teal-200 font-asap font-semibold text-2xl mt-10 relative inline-block after:block after:h-[2px] after:bg-white after:scale-x-0 after:transition-transform after:duration-300 after:origin-left hover:after:scale-x-100">
               Quick links
             </h2>
             <ul class="text-gray-200 flex flex-col mt-2 space-y-2 text-base">
@@ -208,7 +208,7 @@ const Footer = () => {
           </div>
 
           <div className="lg:w-1/3 md:w-1/2 w-full md:px-1">
-            <h2 className="text-teal-200 font-asap font-bold text-2xl mt-10 relative inline-block after:block after:h-[2px] after:bg-white after:scale-x-0 after:transition-transform after:duration-300 after:origin-left hover:after:scale-x-100">
+            <h2 className="text-teal-200 font-asap font-semibold text-2xl mt-10 relative inline-block after:block after:h-[2px] after:bg-white after:scale-x-0 after:transition-transform after:duration-300 after:origin-left hover:after:scale-x-100">
               Contact Info
             </h2>
             <nav className="list-none mb-10 ">
@@ -245,7 +245,7 @@ const Footer = () => {
           </div>
 
           <div className="lg:w-full md:w-1/2 w-full md:pr-16">
-            <h1 className="text-teal-200 font-bold text-2xl md:text-3xl mt-10 mb-1 font-asap relative inline-block after:block after:h-[2px] after:bg-white after:scale-x-0 after:transition-transform after:duration-300 after:origin-left hover:after:scale-x-100">Jeevan Jyoti Hospital</h1>
+            <h1 className="text-teal-200 font-semibold text-2xl md:text-3xl mt-10 mb-1 font-asap relative inline-block after:block after:h-[2px] after:bg-white after:scale-x-0 after:transition-transform after:duration-300 after:origin-left hover:after:scale-x-100">Jeevan Jyoti Hospital</h1>
             <p className="text-white text-justify">Jeevan Jyoti Hospital is a 210-Beds, CGHS Approved, NABH Accredited, ISO 2015 and NABL Medical Lab approved multi-speciality hospital in Prayagraj. Jeevan Jyoti Hospital is Best Hospital in Prayagraj For Any Types of Health Treatment. Here You Get The Best Physician in Allahabad.
               The hospital was founded in 1988 by renowned laparoscopic surgeon Late Dr A.K Bansal and eminent IVF expert Dr Vandana Bansal, with the vision and mission of providing top-of-the-line healthcare facilities under one roof.
             </p>
@@ -254,25 +254,25 @@ const Footer = () => {
                 href="https://www.instagram.com/jeevanjyotihospitalprayagraj/"
                 target="_blank"
               >
-                <FaInstagram className="mx-2 text-white text-xl" />
+                <FaInstagram className="mx-2 text-white hover:text-orange-500 text-xl" />
               </a>
               <a
                 href="https://www.facebook.com/jeevanjyotihospitalprayagraj/"
                 target="_blank"
               >
-                <FaFacebook className="mx-2 text-white text-xl" />
+                <FaFacebook className="mx-2 text-white hover:text-orange-500 text-xl" />
               </a>
               <a
                 href="https://www.youtube.com/@jeevanjyotihospital6176"
                 target="_blank"
               >
-                <FaYoutube className="mx-2 text-white text-xl" />
+                <FaYoutube className="mx-2 text-white hover:text-orange-500 text-xl" />
               </a>
               <a
                 href="https://www.linkedin.com/in/dr-vandana-bansal-5916279b/"
                 target="_blank"
               >
-                <FaLinkedinIn className="mx-2 text-white text-xl" />
+                <FaLinkedinIn className="mx-2 text-white hover:text-orange-500 text-xl" />
               </a>
             </div>
           </div>

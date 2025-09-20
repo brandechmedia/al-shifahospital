@@ -1,4 +1,4 @@
-import LaserSurgeryForPiles from '../../assets/Specialities/LaserSurgeryForPiles.JPG'
+import LaserSurgeryForPiles from '../../assets/Specialities/LaserSurgeryForPiles.jpg'
 
 const LaserSurgeryforPiles = () => {
   return (

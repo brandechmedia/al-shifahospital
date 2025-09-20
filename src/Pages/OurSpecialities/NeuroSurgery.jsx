@@ -1,4 +1,4 @@
-import NeuroSurgeryPhoto from '../../assets/Specialities/NeuroSurgeryPhoto.JPG'
+import NeuroSurgeryPhoto from '../../assets/Specialities/NeuroSurgeryPhoto.jpg'
 
 const NeuroSurgery = () => {
   return (

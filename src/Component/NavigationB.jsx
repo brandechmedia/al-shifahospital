@@ -51,14 +51,14 @@ function NavigationB() {
       <div className=" hidde md:flex flex-wrap z-50 text-center justify-center md:justify-between py-2 px-1 md:px-3 bg-teal-800">
         <div className="flex flex-wrap">
           <span className="md:pr-8 text-sm my-2 md:mb-0 text-white">
-            <IoCallOutline className="mr-2 hidden md:inline" />
-            <a className="pr-3 text-sm hidden md:inline text-white" href="tel:9151037784">Phone: 0532 241 7252,</a>
             <a className="pr-6 text-sm text-white bg-red-600 p-2 md:px-4 rounded-lg" href="tel:9151037783">Emergency No. | +91 1800-1235460</a>
+            <IoCallOutline className="ml-2 hidden md:inline" />
+            <a className="pr-3 text-sm hidden ml-2 md:inline text-white" href="tel:9151037784">Phone: 0532 241 7252,</a>
           </span>
-          <span className="pr-8 text-sm text-white align-middle">
+          {/* <span className="pr-8 text-sm text-white align-middle">
             <MdOutlineMail className="mr-2 hidden md:inline" />
             <a href="mailto:jeevanjyotihospital@gmail.com?subject=Inquiry&body=Hello, I have a question about..." className='hidden md:inline' target="_blank">jeevanjyotihospital@gmail.com</a>
-          </span>
+          </span> */}
           <span className="pr-8 text-sm text-white bg-orane-500 px-4 p-1 rounded-lg border-2">
             <Link to='tpa-cashless-facilities'>TPA & Cashless Facilities</Link>
           </span>

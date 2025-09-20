@@ -1,4 +1,4 @@
-import BurnUnitPhotos from '../../assets/Specialities/BurnUnitPhotos.JPG'
+import BurnUnitPhotos from '../../assets/Specialities/BurnUnitPhotos.jpg'
 function BurnUnit() {
   return (
     <div className="min-h-screen bg-white px-6 py-12">

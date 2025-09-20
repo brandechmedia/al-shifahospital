@@ -1,4 +1,4 @@
-import SurgeryOncology from '../../assets/Specialities/SurgeryOncology.JPG'
+import SurgeryOncology from '../../assets/Specialities/SurgeryOncology.jpg'
 function OncoSurgery() {
   return (
     <div className="px-6 md:px-16 py-10 max-w-7xl mx-auto">

@@ -1,4 +1,4 @@
-import UrologySurgeryPhoto from '../../assets/Specialities/UrologySurgeryPhoto.JPG'
+import UrologySurgeryPhoto from '../../assets/Specialities/UrologySurgeryPhoto.jpg'
 function UrologySurgery() {
   return (
     <div className="max-w-6xl mx-auto p-8 text-gray-800">

@@ -1,4 +1,4 @@
-import ObstetricsGynaecologyPhotos from '../../assets/Specialities/ObstetricsGynaecologyPhotos.JPG'
+import ObstetricsGynaecologyPhotos from '../../assets/Specialities/ObstetricsGynaecologyPhotos.jpg'
 
 function Obstetrics () {
   return (

@@ -1,4 +1,4 @@
-import InfertilityPhoto from '../../assets/Specialities/InfertilityPhoto.PNG'
+import InfertilityPhoto from '../../assets/Specialities/InfertilityPhoto.png'
 function InfertilityAndIVF () {
   return (
     <div className="max-w-6xl mx-auto px-6 py-12">

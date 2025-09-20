@@ -1,4 +1,4 @@
-import AdvancedLaparoscopySurgery from '../../assets/Specialities/AdvancedLaparoscopySurgery.JPG'
+import AdvancedLaparoscopySurgery from '../../assets/Specialities/AdvancedLaparoscopySurgery.jpg'
 function LaparoscopicSurgery() {
   return (
     <div className="max-w-6xl mx-auto px-4 py-10 text-gray-800">

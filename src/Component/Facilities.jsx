@@ -21,8 +21,8 @@ function Facilities() {
     ];
 
     return (
-        <div className="w-full mx-auto py-10 my-10 bg-gradient-to-t from-tel-800 to-wite bg-teal-800">
-            <h1 className='text-white font-anton font-bold text-4xl lg:text-6xl mt-10 mb-2 w-11/12 text-center mx-auto  '>Facilities</h1>
+        <div className="w-full mx-auto py-10 my-10 mt-0 bg-gradient-to-t from-tel-800 to-wite bg-teal-700">
+            <h1 className='text-white font-anton font-bold text-4xl lg:text-5xl mt-10 mb-2 w-11/12 text-center mx-auto  '>Our Specialities</h1>
 
             <p className="w-4/5 mx-auto text-white text-justify md:text-center mb-10">At our hospital, we provide comprehensive healthcare with state-of-the-art facilities and compassionate care. Our services include advanced diagnostics, modern operation theatres, 24×7 emergency and pharmacy support, and specialized departments for gynecology, infertility, cancer care, and IVF. With well-furnished rooms, critical care units, and a dedicated team of expert doctors and nurses, we ensure safe, innovative, and patient-centered treatment.</p>
             <Swiper
@@ -47,7 +47,7 @@ function Facilities() {
                         <div className="bg-t-to-t from-gray-700 to-cyan-400 bg-white rounded-2xl shadow-xl px-4 pt-0 pb-0 flex flex-col justify-center items-center">
 
                             {/* <div className="rounded-lg w-40 h-auto backdrop: transform -translate-x-1/2"> */}
-                            <div className="z-50 relative -top-44 rounded-full w-4/5 md:w-3/5 md:h-4/5 border-2 p-2 border-white shadow-xl overflow-hidde">
+                            <div className="z-50 relative -top-44 rounded-full w-4/5 md:w-3/5 md:h-4/5 border-2 p-3 border-white shadow-xl overflow-hidde">
                                 <img
                                     src={card.images}
                                     alt="Profile"

@@ -13,7 +13,8 @@ import ContactButton from './ContactButton'
 import Facilities from './Facilities'
 import NewsAndEvents from './NewsAndEvents'
 import AboutHospital from './AboutHospital'
-
+import Highlights from '../assets/Highlights.png'
+import Milestone from './Milestone'
 const Home = () => {
   return (
     <div>
@@ -28,8 +29,12 @@ const Home = () => {
       <ContactButton />
       <Head />
       <About />
-      <AboutHospital/>
+      {/* <AboutHospital/> */}
       {/* <Rewards /> */}
+      <Milestone/>
+      <div>
+        <img src={Highlights} alt="" />
+      </div>
       <Facilities/>
       {/* <Treatements /> */}
       <Stats />
