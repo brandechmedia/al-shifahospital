@@ -229,8 +229,9 @@ const Footer = () => {
               <IoCallOutline className="inline mr-2" />
               +91 532-2417248/ 52/ 54</a>
 
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4273.940070119506!2d81.84658139999999!3d25.4363194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399acab52d38021f%3A0x7a5c69d06d09297b!2z8J2XnfCdl7LwnZey8J2Yg_Cdl67wnZe7IPCdl53wnZiG8J2XvPCdmIHwnZe2IPCdl5vwnZe88J2YgPCdl73wnZe28J2YgfCdl67wnZe5IC0gQmVzdCBIb3NwaXRhbCB8RW1lcmdlbmN5IEhvc3BpdGFsIGluIEFsbGFoYWJhZCB8TGFwYXJvc2NvcGljIFN1cmdlb24gJiBIZXJuaWE!5e1!3m2!1sen!2sin!4v1756811785282!5m2!1sen!2sin" style={{ border: 0, width: '100%', marginTop: 10, borderRadius: 17 }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4273.940070119506!2d81.84658139999999!3d25.4363194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399acab52d38021f%3A0x7a5c69d06d09297b!2z8J2XnfCdl7LwnZey8J2Yg_Cdl67wnZe7IPCdl53wnZiG8J2XvPCdmIHwnZe2IPCdl5vwnZe88J2YgPCdl73wnZe28J2YgfCdl67wnZe5IC0gQmVzdCBIb3NwaXRhbCB8RW1lcmdlbmN5IEhvc3BpdGFsIGluIEFsbGFoYWJhZCB8TGFwYXJvc2NvcGljIFN1cmdlb24gJiBIZXJuaWE!5e1!3m2!1sen!2sin!4v1756811785282!5m2!1sen!2sin" style={{ border: 0, width: '100%', marginTop: 10, borderRadius: 17 }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> */}
 
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3603.363217301936!2d81.8330134!3d25.426117599999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39853533d142e475%3A0x8798ce7743768b96!2sAL%20SHIFA%20MEDICAL%20CENTRE!5e0!3m2!1sen!2sin!4v1758394274674!5m2!1sen!2sin"style={{ border: 0, width: '100%', marginTop: 10, borderRadius: 17 }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
             <button className="bg-white text-black py-2 px-6 mt-4 rounded-md">
               <Link to="/book-appointment" className="">
@@ -245,7 +246,7 @@ const Footer = () => {
           </div>
 
           <div className="lg:w-full md:w-1/2 w-full md:pr-16">
-            <h1 className="text-teal-200 font-semibold text-2xl md:text-3xl mt-10 mb-1 font-asap relative inline-block after:block after:h-[2px] after:bg-white after:scale-x-0 after:transition-transform after:duration-300 after:origin-left hover:after:scale-x-100">Jeevan Jyoti Hospital</h1>
+            <h1 className="text-teal-200 font-semibold text-2xl md:text-3xl mt-10 mb-1 font-asap relative inline-block after:block after:h-[2px] after:bg-white after:scale-x-0 after:transition-transform after:duration-300 after:origin-left hover:after:scale-x-100">Al-Shifa Hospital</h1>
             <p className="text-white text-justify">Jeevan Jyoti Hospital is a 210-Beds, CGHS Approved, NABH Accredited, ISO 2015 and NABL Medical Lab approved multi-speciality hospital in Prayagraj. Jeevan Jyoti Hospital is Best Hospital in Prayagraj For Any Types of Health Treatment. Here You Get The Best Physician in Allahabad.
               The hospital was founded in 1988 by renowned laparoscopic surgeon Late Dr A.K Bansal and eminent IVF expert Dr Vandana Bansal, with the vision and mission of providing top-of-the-line healthcare facilities under one roof.
             </p>

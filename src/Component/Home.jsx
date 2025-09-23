@@ -28,19 +28,19 @@ const Home = () => {
       <Arrow />
       <ContactButton />
       <Head />
-      <About />
+      {/* <About /> */}
       {/* <AboutHospital/> */}
       {/* <Rewards /> */}
-      <Milestone/>
+      {/* <Milestone/> */}
       <div>
         <img src={Highlights} alt="" />
       </div>
-      <Facilities/>
+      {/* <Facilities/> */}
       {/* <Treatements /> */}
-      <Stats />
+      {/* <Stats /> */}
       {/* <NewsImages/> */}
       <Contact />
-      <NewsAndEvents/>
+      {/* <NewsAndEvents/> */}
       {/* <GoogleReview /> */}
       {/* <FAQ /> */}
       <Appointment />

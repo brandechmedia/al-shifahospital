@@ -1,39 +1,14 @@
 import React, { useEffect, useState } from "react";
 import "aos/dist/aos.css";
-import slider111 from "../assets/Heros/slider111.jpg";
 import slider01 from "../assets/Heros/slider01.jpg";
-import slider11 from "../assets/Heros/slider11.jpg";
-import slider12 from "../assets/Heros/slider12.jpg";
-import slider17 from "../assets/Heros/slider17.jpg";
-import slider18 from "../assets/Heros/slider18.jpg";
-import slider19 from "../assets/Heros/slider19.jpg";
-import slider161 from "../assets/Heros/slider161.jpg";
-import slider21 from "../assets/Heros/slider21.jpg";
-import slider91 from "../assets/Heros/slider91.jpg";
-import slider31 from "../assets/Heros/slider31.jpg";
-import slider41 from "../assets/Heros/slider41.jpg";
-import slider51 from "../assets/Heros/slider51.jpg";
 import sliderWelcome from "../assets/Heros/sliderWelcome.jpg";
-import sliderWelcome31 from "../assets/Heros/sliderWelcome31.jpg";
 import "../Style/Style.css";
 
 const Head = () => {
   const images = [
     sliderWelcome,
     slider01,
-    slider11,
-    slider111,
-    sliderWelcome31, 
-    slider12,
-    slider17,
-    slider18,
-    slider19,
-    slider161,
-    slider21,
-    slider91,
-    slider31,
-    slider41,
-    slider51,
+   
   ];
   const [currentIndex, setCurrentIndex] = useState(0);
 
