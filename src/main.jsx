@@ -13,7 +13,6 @@ import OurFounders from './Pages/AboutUs/OurFounders.jsx'
 import PatientsGuide from './Pages/PatientsGuide.jsx'
 import Gallery from './Pages/Gallery.jsx'
 import BookYourAppointment from './Pages/BookYourAppointment.jsx'
-import NewsPaperCutting from './Pages/NewsPaperCutting.jsx'
 
 import NotFound from './Pages/NotFound.jsx'
 import TermsAndConditions from './Pages/TermsAndCondition.jsx'
@@ -122,11 +121,6 @@ const router = createBrowserRouter([
       {
         path: 'consultants',
         element: <Consultants />,
-        children: []
-      },
-      {
-        path: 'news-paper-images',
-        element: <NewsPaperCutting />,
         children: []
       },
       {
