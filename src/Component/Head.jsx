@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "aos/dist/aos.css";
-import WebBannerAlShifa from "../assets/Heros/WebBannerAlshifa.jpg";
-import Banner2 from "../assets/Heros/Banner2.jpg";
+import WebBannerAlShifa from "../assets/Heros/WebBannerAlshifa.JPG";
+import Banner2 from "../assets/Heros/Banner2.JPG";
 import "../Style/Style.css";
 
 const Head = () => {
