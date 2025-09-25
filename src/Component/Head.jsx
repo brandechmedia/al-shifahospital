@@ -1,13 +1,15 @@
 import React, { useEffect, useState } from "react";
 import "aos/dist/aos.css";
-import slider01 from "../assets/Heros/slider01.jpg";
-import sliderWelcome from "../assets/Heros/sliderWelcome.jpg";
+import WebBannerAlShifa from "../assets/Heros/WebBannerAlshifa.jpg";
+import Banner2 from "../assets/Heros/Banner2.jpg";
 import "../Style/Style.css";
 
 const Head = () => {
   const images = [
-    sliderWelcome,
-    slider01,
+    WebBannerAlShifa,
+    Banner2,
+    // sliderWelcome,
+    // slider01,
    
   ];
   const [currentIndex, setCurrentIndex] = useState(0);

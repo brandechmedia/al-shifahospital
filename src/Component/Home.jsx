@@ -32,9 +32,9 @@ const Home = () => {
       {/* <AboutHospital/> */}
       {/* <Rewards /> */}
       {/* <Milestone/> */}
-      <div>
+      {/* <div>
         <img src={Highlights} alt="" />
-      </div>
+      </div> */}
       {/* <Facilities/> */}
       {/* <Treatements /> */}
       {/* <Stats /> */}

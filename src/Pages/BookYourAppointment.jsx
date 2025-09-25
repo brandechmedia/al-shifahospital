@@ -18,18 +18,17 @@ const BookYourAppointment = () => {
                     </h1>
                     <p className="mb-8 text-center leading-relaxed">DR. VANDANA BANSAL – MBBS, DGO, MS, D.Phil (Gold Medalist) FCGP is one of the renowned and Senior Gynaecologists and Obstetricians of the state of Uttar Pradesh. She is specialized in Laparoscopy and Hysteroscopic Surgery – since 18 years. Besided, she is Director of 500-bedded, multi-speciality Jeevan Jyoti Hospital, Arpit Test Tube Baby Centre & Vandana Women’s Hospital Allahabad. Jeevan Jyoti Hospital has completed 25th years in Oct-2013 Silver Jubilee celebration.</p>
                 </div> */}
-                <div className='mx-auto bg-gray-700 text-white w-fit mb-2 py-1 px-3 rounded-xl'> <span className='mb-2'>Contact US - </span>
+                <div className='mx-auto bg-sky-700 text-white w-fit mb-2 py-1 px-3 rounded-xl'> <span className='mb-2'>Contact US - </span>
                     <div className="relative inline-flex">
                         <button
                             className="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xl py-3 px-6 rounded-lg bg-white text-gray-800 shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none"
                             type="button">
                             {/* +91 6390103002 | +91 9151037783 */}
-                            <a className="pr-6 text-sm text-whit" href="tel:9151037783">Book Now: +91 7705910037</a>
-                            <a className="pr-3 text-sm text-whit" href="tel:6390103002">+91 9151037784</a>
-                            <a className="pr-6 text-sm text-whit" href="tel:9151037783">+91 6390103002</a>
+                            <a className="pr-6 text-sm text-whit" href="tel:9415157344">Book Now: +91 9415157344</a>
+                            <a className="pr-3 text-sm text-whit" href="tel:8840003060">+91 8840003060</a>
                             </button>
                         <span
-                            className="absolute min-w-[25px] min-h-[25px] rounded-full py-1 px-1 text-xs font-medium content-[''] leading-none grid place-items-center top-[4%] right-[2%] translate-x-2/4 -translate-y-2/4 bg-red-700 text-white">
+                            className="absolute min-w-[25px] min-h-[25px] rounded-full py-1 px-1 text-xs font-medium content-[''] leading-none grid place-items-center top-[4%] right-[2%] translate-x-2/4 -translate-y-2/4 bg-yellow-400 text-white">
                         </span>
                     </div>
                 </div>

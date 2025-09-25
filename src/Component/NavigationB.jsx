@@ -9,7 +9,7 @@ import { VscLayoutPanel } from "react-icons/vsc";
 import { IoLocationOutline } from "react-icons/io5";
 import { MdOutlineMail } from "react-icons/md";
 import { IoCallOutline } from "react-icons/io5";
-import LogoJJH from '../assets/Logo/LogoJJH.png'
+import LogoAlShifa from '../assets/LogoAlShifa.png'
 import {
   ChevronDownIcon,
   PlusIcon,
@@ -48,17 +48,14 @@ function NavigationB() {
   };
   return (
     <>
-      <div className=" hidde md:flex flex-wrap z-50 text-center justify-center md:justify-between py-2 px-1 md:px-3 bg-teal-800">
+      {/* <div className=" hidde md:flex flex-wrap z-50 text-center justify-center md:justify-between py-2 px-1 md:px-3 bg-teal-800">
         <div className="flex flex-wrap">
           <span className="md:pr-8 text-sm my-2 md:mb-0 text-white">
             <a className="pr-6 text-sm text-white bg-red-600 p-2 md:px-4 rounded-lg" href="tel:9151037783">Emergency No. | +91 1800-1235460</a>
             <IoCallOutline className="ml-2 hidden md:inline" />
             <a className="pr-3 text-sm hidden ml-2 md:inline text-white" href="tel:9151037784">Phone: 0532 241 7252,</a>
           </span>
-          {/* <span className="pr-8 text-sm text-white align-middle">
-            <MdOutlineMail className="mr-2 hidden md:inline" />
-            <a href="mailto:jeevanjyotihospital@gmail.com?subject=Inquiry&body=Hello, I have a question about..." className='hidden md:inline' target="_blank">jeevanjyotihospital@gmail.com</a>
-          </span> */}
+         
           <span className="pr-8 text-sm text-white bg-orane-500 px-4 p-1 rounded-lg border-2">
             <Link to='tpa-cashless-facilities'>TPA & Cashless Facilities</Link>
           </span>
@@ -69,24 +66,24 @@ function NavigationB() {
             <IoLocationOutline className="inline " />162 Bai Ka Bagh, Lowther Rd, Jeevan Jyoti Hospital, Prayagraj, Uttar Pradesh 211003
           </a>
         </div>
-      </div>
+      </div> */}
       <nav className="bg-white py-2 px-4 shadow-sm sticky top-0 z-20">
         <div className="containe flex items-center justify-between">
           {/* <div className="text-white text-lg font-bold">ARPIT TEST TUBE BABY CENTRE</div> */}
           <Link to='/' className="flex items-center flex-shrink-0 ml-6 lg:ml-10 lg:mr-32">
             <span className=" font-bol flex md:font-thin text-roe-400 ">
-              <img src={LogoJJH} className="w-56 md:w-80" alt="" />
+              <img src={LogoAlShifa} className="w-56 md:w-80" alt="" />
               {/* Jeevan Jyoti Hospital */}
 
             </span>
           </Link>
           <div className="hidden lg:flex space-x-4 relative">
-            <Link to='/' className="text-whit text-black text-md font-semibold relative inline-block after:block after:h-[2px] after:bg-rose-400 after:scale-x-0 after:transition-transform after:duration-300 after:origin-left hover:after:scale-x-100">Home</Link>
+            <Link to='/' className="text-whit text-black text-md font-semibold relative inline-block after:block after:h-[2px] after:bg-yellow-400 after:scale-x-0 after:transition-transform after:duration-300 after:origin-left hover:after:scale-x-100">Home</Link>
             <Link
               onMouseEnter={() => setIsAboutDropdownOpen(true)}
               onMouseLeave={() => setIsAboutDropdownOpen(false)}
               onClick={toggleAboutDropdown}
-              className="text-whit text-black focus:outline-none text-nowrap font-semibold text-md relative inline-block after:block after:h-[2px] after:bg-rose-400 after:scale-x-0 after:transition-transform after:duration-300 after:origin-left hover:after:scale-x-100 "
+              className="text-whit text-black focus:outline-none text-nowrap font-semibold text-md relative inline-block after:block after:h-[2px] after:bg-yellow-400 after:scale-x-0 after:transition-transform after:duration-300 after:origin-left hover:after:scale-x-100 "
             >
               About Us
               {/* <ChevronDownIcon className="h-5 w-5 inline" /> */}
@@ -97,151 +94,142 @@ function NavigationB() {
                 onMouseLeave={() => setIsAboutDropdownOpen(false)}
                 className="absolute mt-4 pt-3 w-48 bg-white rounded-md shadow-lg z-10"
               >
-                <Link to='overview' className="block px-4 py-2 text-gray-800 w-full text-left">
+                <Link to='overiew' className="block px-4 py-2 text-gray-800 w-full text-left">
                   Overview
                 </Link>
-                <Link to='our-founder' className="block px-4 py-2 text-gray-800 w-full text-left">
+                <Link to='our-fouder' className="block px-4 py-2 text-gray-800 w-full text-left">
                   Our Founder
                 </Link>
-                <Link to='directors-message' className="block px-4 py-2 text-gray-800 w-full text-left">
-                  Director's Message
-                </Link>
-                <Link to='why-choose-us' className="block px-4 py-2 text-gray-800 w-full text-left">
+                <Link to='why-chose-us' className="block px-4 py-2 text-gray-800 w-full text-left">
                   Why Choose US
                 </Link>
               </div>
             )}
             <div
-              className={`dropdown mt-0 font-semibold text-nowrap text-md lg:inline-block lg:mt-0 hover:text-cyan-400  text-whit text-black md:text-white focus:outline-none relative inline-block after:block after:h-[2px] after:bg-cyan-400 after:scale-x-0 after:transition-transform after:duration-300 after:origin-left hover:after:scale-x-100 ${isOpen ? "py-3" : ""}`} tabIndex={0}>
+              className={`dropdown mt-0 font-semibold text-nowrap text-md lg:inline-block lg:mt-0 hover:text-yellow-400  text-whit text-black focus:outline-none relative inline-block after:block after:h-[2px] after:bg-yellow-400 after:scale-x-0 after:transition-transform after:duration-300 after:origin-left hover:after:scale-x-100 ${isOpen ? "py-3" : ""}`} tabIndex={0}>
               Our Specialities
-              <div className="dropdown-content overflow-scroll pb-20 h-screen w-80 font-thin mt-1">
+              <div className="dropdown-content overflow-scroll bg-sky-800 pb-20 h-screen w-80 font-thin mt-1">
                 <a className="dropdownn">
-                  <Link to='speciality/general-and-advanced-laparoscopy-surgery' className="dropbtnn">Advanced Laparoscopy Surgery</Link>
+                  <Link to='specility/general-and-advanced-laparoscopy-surgery' className="text-white hover:!text-black  dropbtnn">Advanced Laparoscopy Surgery</Link>
                 </a>
                 <a className="dropdownn">
-                  <Link to='speciality/advanced-hysteroscopy' className="dropbtnn">Advanced Hysteroscopy Surgery</Link>
+                  <Link to='specility/advanced-hysteroscopy' className="text-white dropbtnn hover:!text-black">Advanced Hysteroscopy Surgery</Link>
                 </a>
-                <a className="dropdownn">
+                {/* <a className="dropdownn">
                   <Link to='speciality/interventional-radiology' className="dropbtnn">Interventional Radiology</Link>
-                </a>
-                <a className="dropdownn">
+                </a> */}
+                {/* <a className="dropdownn">
                   <Link to='speciality/clinical-genetics' className="dropbtnn">Clinical Genetics</Link>
-                </a>
-                <a className="dropdownn">
+                </a> */}
+                {/* <a className="dropdownn">
                   <Link to='speciality/surgical-oncology' className="dropbtnn">Onco Surgical Oncology</Link>
-                </a>
-                <a className="dropdownn">
+                </a> */}
+                {/* <a className="dropdownn">
                   <Link to='speciality/bariatric-and-weight-loss-surgery' className="dropbtnn">Bariatric Surgery</Link>
+                </a> */}
+                <a className="dropdownn">
+                  <Link to='specility/laser-treatment-in-general-surgery' className="text-white hover:!text-black dropbtnn">Laser Surgery for Piles & Varicose Veins</Link>
                 </a>
                 <a className="dropdownn">
-                  <Link to='speciality/laser-treatment-in-general-surgery' className="dropbtnn">Laser Surgery for Piles & Varicose Veins</Link>
+                  <Link to='specialty/urology' className="text-white hover:!text-black dropbtnn">Urology Surgery</Link>
                 </a>
                 <a className="dropdownn">
-                  <Link to='speciality/urology' className="dropbtnn">Urology Surgery</Link>
+                  <Link to='specility/neuro-surgery' className="text-white hover:!text-black dropbtnn">Neuro Surgery</Link>
                 </a>
-                <a className="dropdownn">
-                  <Link to='speciality/neuro-surgery' className="dropbtnn">Neuro Surgery</Link>
-                </a>
-                <a className="dropdownn">
+                {/* <a className="dropdownn">
                   <Link to='speciality/plastic-surgery' className="dropbtnn">Plastic Surgery</Link>
-                </a>
-                <a className="dropdownn">
+                </a> */}
+                {/* <a className="dropdownn">
                   <Link to='speciality/burn-unit' className="dropbtnn">Burn Unit</Link>
-                </a>
+                </a> */}
                 <a className="dropdownn">
-                  <Link to='speciality/obstetrics-and-gynaecology' className="dropbtnn">Obstetrics & Gynaecology</Link>
+                  <Link to='speciaity/obstetrics-and-gynaecology' className="text-white hover:!text-black dropbtnn">Obstetrics & Gynaecology</Link>
                 </a>
-                <a className="dropdownn">
+                {/* <a className="dropdownn">
                   <Link to='speciality/infertility-and-ivf' className="dropbtnn">Infertility & IVF</Link>
-                </a>
-                <a className="dropdownn">
+                </a> */}
+                {/* <a className="dropdownn">
                   <Link to='speciality/well-womens-clinic' className="dropbtnn">Well Women’s Clinic</Link>
-                </a>
-                <a className="dropdownn">
+                </a> */}
+                {/* <a className="dropdownn">
                   <Link to='speciality/breast-clinic' className="dropbtnn">Breast Clinic</Link>
+                </a> */}
+                <a className="dropdownn">
+                  <Link to='specialty/high-risk-pregnancy-care' className="text-white hover:!text-black dropbtnn">High Risk Pregnancy Care</Link>
                 </a>
                 <a className="dropdownn">
-                  <Link to='speciality/high-risk-pregnancy-care' className="dropbtnn">High Risk Pregnancy Care</Link>
+                  <Link to='speciaity/pediatrics-and-neonatology' className="text-white hover:!text-black dropbtnn">Pediatrics & Neonatology</Link>
                 </a>
-                <a className="dropdownn">
-                  <Link to='speciality/pediatrics-and-neonatology' className="dropbtnn">Pediatrics & Neonatology</Link>
-                </a>
-                <a className="dropdownn">
+                {/* <a className="dropdownn">
                   <Link to='speciality/orthopaedics-and-joint-replacement' className="dropbtnn">Orthopaedics & Joint Replacement</Link>
-                </a>
-                <a className="dropdownn">
+                </a> */}
+                {/* <a className="dropdownn">
                   <Link to='speciality/trauma-centre-and-emergency-services' className="dropbtnn">Trauma Centre</Link>
-                </a>
+                </a> */}
                 <a className="dropdownn">
-                  <Link to='speciality/cardiology' className="dropbtnn">Cardiac Care Unit</Link>
+                  <Link to='speciaity/cardiology' className="text-white hover:!text-black dropbtnn">Cardiac Care Unit</Link>
                 </a>
-                <a className="dropdownn">
+                {/* <a className="dropdownn">
                   <Link to='speciality/opthalmology' className="dropbtnn">Department of Ophthalmology</Link>
+                </a> */}
+                <a className="dropdownn">
+                  <Link to='speciaity/ear-nose-and-throat' className="text-white hover:!text-black dropbtnn">Department of ENT</Link>
                 </a>
                 <a className="dropdownn">
-                  <Link to='speciality/ear-nose-and-throat' className="dropbtnn">Department of ENT</Link>
+                  <Link to='speciality/anaesthesiology-and-critical-care' className="text-white hover:!text-black  dropbtnn">Department of Anaesthesiology & Pain</Link>
                 </a>
-                <a className="dropdownn">
-                  <Link to='speciality/dentistry' className="dropbtnn">Department of Dental Care</Link>
-                </a>
-                <a className="dropdownn">
-                  <Link to='speciality/anaesthesiology-and-critical-care' className="dropbtnn">Department of Anaesthesiology & Pain</Link>
-                </a>
-                <a className="dropdownn">
+                {/* <a className="dropdownn">
                   <Link to='speciality/nephrology' className="dropbtnn">Department of Nephrology</Link>
-                </a>
+                </a> */}
                 <a className="dropdownn">
-                  <Link to='speciality/department-of-gastroenterology' className="dropbtnn">Department of Gastroenterology</Link>
+                  <Link to='specility/department-of-gastroenterology' className="text-white hover:!text-black dropbtnn">Department of Gastroenterology</Link>
                 </a>
-                <a className="dropdownn">
-                  <Link to='speciality/neuro-physician-and-stroke-medicine' className="dropbtnn">Neuro Physician and Stroke Medicine</Link>
-                </a>
-                <a className="dropdownn">
+                {/* <a className="dropdownn">
                   <Link to='speciality/colposcopy' className="dropbtnn">Colposcopy</Link>
-                </a>
-                <a className="dropdownn">
+                </a> */}
+                {/* <a className="dropdownn">
                   <Link to='speciality/neuro-physician-and-stroke-medicine' className="dropbtnn">Pulmonary Medicine</Link>
-                </a>
-                <a className="dropdownn">
+                </a> */}
+                {/* <a className="dropdownn">
                   <Link to='speciality/psychiatric-and-psychology' className="dropbtnn">Psychiatric Department & Psychology</Link>
+                </a> */}
+                <a className="dropdownn">
+                  <Link to='specility/skin-care-and-dermatology' className="text-white hover:!text-black dropbtnn">Skin Care and Dermatology</Link>
                 </a>
                 <a className="dropdownn">
-                  <Link to='speciality/skin-care-and-dermatology' className="dropbtnn">Skin Care and Dermatology</Link>
+                  <Link to='speciaity/diagnostic-services' className="text-white hover:!text-black dropbtnn">Diagnostic Services</Link>
                 </a>
-                <a className="dropdownn">
-                  <Link to='speciality/diagnostic-services' className="dropbtnn">Diagnostic Services</Link>
-                </a>
-                <a className="dropdownn">
+                {/* <a className="dropdownn">
                   <Link to='speciality/pain-management' className="dropbtnn">Pain Management</Link>
-                </a>
-                <a className="dropdownn">
+                </a> */}
+                {/* <a className="dropdownn">
                   <Link to='speciality/internal-medicine' className="dropbtnn">Internal Medicine</Link>
-                </a>
-                <a className="dropdownn">
+                </a> */}
+                {/* <a className="dropdownn">
                   <Link to='speciality/laser-treatment-in-gynecology' className="dropbtnn">Laser Treatment in Gynaecology</Link>
-                </a>
-                <a className="dropdownn">
+                </a> */}
+                {/* <a className="dropdownn">
                   <Link to='speciality/prp-treatment-gynecology' className="dropbtnn">PRP Treatment in Gynaecology</Link>
-                </a>
-                <a className="dropdownn">
+                </a> */}
+                {/* <a className="dropdownn">
                   <Link to='speciality/respiratory-medicine' className="dropbtnn">Respiratory Medicine</Link>
-                </a>
+                </a> */}
               </div>
             </div>
-            <Link to='facilities' className="text-whit text-black text-md font-semibold relative inline-block after:block after:h-[2px] after:bg-rose-400 after:scale-x-0 after:transition-transform after:duration-300 after:origin-left hover:after:scale-x-100">
+            <Link to='facities' className="text-whit text-black text-md font-semibold relative inline-block after:block after:h-[2px] after:bg-yellow-400 after:scale-x-0 after:transition-transform after:duration-300 after:origin-left hover:after:scale-x-100">
               Facilities
             </Link>
-            <Link to='consultants' className="text-whit text-black text-md font-semibold relative inline-block after:block after:h-[2px] after:bg-rose-400 after:scale-x-0 after:transition-transform after:duration-300 after:origin-left hover:after:scale-x-100">
+            <Link to='csultants' className="text-whit text-black text-md font-semibold relative inline-block after:block after:h-[2px] after:bg-yellow-400 after:scale-x-0 after:transition-transform after:duration-300 after:origin-left hover:after:scale-x-100">
               Consultants
             </Link>
-            <Link to='patients-guide' className="hidden xl:inline-block text-nowrap text-whit text-black text-md font-semibold relative after:block after:h-[2px] after:bg-rose-400 after:scale-x-0 after:transition-transform after:duration-300 after:origin-left hover:after:scale-x-100">
+            {/* <Link to='patients-guide' className="hidden xl:inline-block text-nowrap text-whit text-black text-md font-semibold relative after:block after:h-[2px] after:bg-rose-400 after:scale-x-0 after:transition-transform after:duration-300 after:origin-left hover:after:scale-x-100">
               Patients Guide
-            </Link>
-            <Link to='gallery' className="text-whit text-black text-md font-semibold relative hidden xl:inline-block after:block after:h-[2px] after:bg-rose-400 after:scale-x-0 after:transition-transform after:duration-300 after:origin-left hover:after:scale-x-100">
+            </Link> */}
+            <Link to='galery' className="text-whit text-black text-md font-semibold relative hidden xl:inline-block after:block after:h-[2px] after:bg-yellow-400 after:scale-x-0 after:transition-transform after:duration-300 after:origin-left hover:after:scale-x-100">
               Gallery
             </Link>
           </div>
-          <Link to='book-appointment' className="hidden text-nowrap lg:block text-white bg-teal-600 font-bold px-4 py-1 text-lg rounded-3xl">
+          <Link to='book-appointment' className="hidden text-nowrap lg:block text-white bg-yellow-500 font-bold px-4 py-1 text-lg rounded-3xl">
             Contact Us
           </Link>
           <button

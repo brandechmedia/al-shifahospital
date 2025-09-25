@@ -216,22 +216,17 @@ const Footer = () => {
               </li> */}
             </nav>
             <a href='https://maps.app.goo.gl/UyiKVZiL3H9uu4Bh9' className="my-4 text-white" target="_blank">
-              <IoLocationOutline className="inline text-white text-xl" />162 Bai Ka Bagh, Lowther Road, Pincode - 211003, Prayagraj
-              (Allahabad) UTTAR PRADESH, INDIA
+              <IoLocationOutline className="inline text-white text-xl" />Dargah Hazrat Abbas Road, Pipal Chauraha, Katehra Dariyabad, Prayagraj, Uttar Pradesh 211003
             </a>
-            <a className="my-3 text-white block" target="_blank" href="tel:6390103002">
+            <a className="my-3 text-white block" target="_blank" href="tel:8840003060">
               <IoCallOutline className="inline mr-2" />
-              +91 6390103003</a>
-            <a className="my-3 text-white block" target="_blank" href="tel:9151037784">
+              +91 8840003060</a>
+            <a className="my-3 text-white block" target="_blank" href="tel:9415157344">
               <IoCallOutline className="inline mr-2" />
-              +91 6390103011</a>
-            <a className="my-3 text-white block" target="_blank" href="tel:9151037784">
-              <IoCallOutline className="inline mr-2" />
-              +91 532-2417248/ 52/ 54</a>
+              +91 9415157344</a>
 
-              {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4273.940070119506!2d81.84658139999999!3d25.4363194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399acab52d38021f%3A0x7a5c69d06d09297b!2z8J2XnfCdl7LwnZey8J2Yg_Cdl67wnZe7IPCdl53wnZiG8J2XvPCdmIHwnZe2IPCdl5vwnZe88J2YgPCdl73wnZe28J2YgfCdl67wnZe5IC0gQmVzdCBIb3NwaXRhbCB8RW1lcmdlbmN5IEhvc3BpdGFsIGluIEFsbGFoYWJhZCB8TGFwYXJvc2NvcGljIFN1cmdlb24gJiBIZXJuaWE!5e1!3m2!1sen!2sin!4v1756811785282!5m2!1sen!2sin" style={{ border: 0, width: '100%', marginTop: 10, borderRadius: 17 }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> */}
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3603.363217301936!2d81.8330134!3d25.426117599999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39853533d142e475%3A0x8798ce7743768b96!2sAL%20SHIFA%20MEDICAL%20CENTRE!5e0!3m2!1sen!2sin!4v1758394274674!5m2!1sen!2sin"style={{ border: 0, width: '100%', marginTop: 10, borderRadius: 17 }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3603.363217301936!2d81.8330134!3d25.426117599999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39853533d142e475%3A0x8798ce7743768b96!2sAL%20SHIFA%20MEDICAL%20CENTRE!5e0!3m2!1sen!2sin!4v1758394274674!5m2!1sen!2sin" style={{ border: 0, width: '100%', marginTop: 10, borderRadius: 17 }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
             <button className="bg-white text-black py-2 px-6 mt-4 rounded-md">
               <Link to="/book-appointment" className="">
@@ -247,30 +242,29 @@ const Footer = () => {
 
           <div className="lg:w-full md:w-1/2 w-full md:pr-16">
             <h1 className="text-teal-200 font-semibold text-2xl md:text-3xl mt-10 mb-1 font-asap relative inline-block after:block after:h-[2px] after:bg-white after:scale-x-0 after:transition-transform after:duration-300 after:origin-left hover:after:scale-x-100">Al-Shifa Hospital</h1>
-            <p className="text-white text-justify">Jeevan Jyoti Hospital is a 210-Beds, CGHS Approved, NABH Accredited, ISO 2015 and NABL Medical Lab approved multi-speciality hospital in Prayagraj. Jeevan Jyoti Hospital is Best Hospital in Prayagraj For Any Types of Health Treatment. Here You Get The Best Physician in Allahabad.
-              The hospital was founded in 1988 by renowned laparoscopic surgeon Late Dr A.K Bansal and eminent IVF expert Dr Vandana Bansal, with the vision and mission of providing top-of-the-line healthcare facilities under one roof.
+            <p className="text-white text-justify">Al Shifa Hospital, located in Dariyabad, Prayagraj, is a trusted healthcare center dedicated to providing quality medical services with compassion and care. The hospital is committed to serving patients with modern facilities, experienced doctors, and a patient-friendly environment. With a focus on affordability and accessibility, Al Shifa Hospital caters to the medical needs of the local community, offering specialized treatments, diagnostic services, and personalized care for individuals and families. Its mission is to ensure better health outcomes and to stand as a reliable name in healthcare for Prayagraj and surrounding areas.
             </p>
             <div className="flex m-auto my-4">
               <a
-                href="https://www.instagram.com/jeevanjyotihospitalprayagraj/"
+                href="https://www.instagram.com/"
                 target="_blank"
               >
                 <FaInstagram className="mx-2 text-white hover:text-orange-500 text-xl" />
               </a>
               <a
-                href="https://www.facebook.com/jeevanjyotihospitalprayagraj/"
+                href="https://www.facebook.com/"
                 target="_blank"
               >
                 <FaFacebook className="mx-2 text-white hover:text-orange-500 text-xl" />
               </a>
               <a
-                href="https://www.youtube.com/@jeevanjyotihospital6176"
+                href="https://www.youtube.com"
                 target="_blank"
               >
                 <FaYoutube className="mx-2 text-white hover:text-orange-500 text-xl" />
               </a>
               <a
-                href="https://www.linkedin.com/in/dr-vandana-bansal-5916279b/"
+                href="https://www.linkedin.com/"
                 target="_blank"
               >
                 <FaLinkedinIn className="mx-2 text-white hover:text-orange-500 text-xl" />
@@ -290,7 +284,7 @@ const Footer = () => {
             <p className="text-sm text-gray-700 sm:ml-6 sm:mt-0">
               © 2025 Jeevan Jyoti Hospital | All rights reserved
             </p>
-            <div className="text-center">
+            {/* <div className="text-center">
               <Link to='terms-and-condition'>
                 Term & Condition
               </Link>
@@ -298,8 +292,8 @@ const Footer = () => {
               <Link to="privacy-policy texy">
                 Privacy Policy
               </Link>|
-            <span>Design by Salman Ansari</span>
-            </div>
+              <span>Design by Salman Ansari</span>
+            </div> */}
           </div>
         </div>
       </footer>

@@ -47,7 +47,7 @@ const Contact = () => {
     <section id='contact' className="text-gray-600 body-font relative">
       <div className="container px-2 md:px-5 py-12 mx-auto">
         <div className="flex flex-col text-center w-full mb-12">
-          <h1 className="sm:text-5xl text-2xl font-bold title-font mb-4 text-teal-700 font-asap">Book Your Appointment</h1>
+          <h1 className="sm:text-5xl text-2xl font-bold title-font mb-4 text-teal-400 font-asap">Book Your Appointment</h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base font-bold">If you're seeking treatment or have any queries, feel free to submit this form. I'll get back to you as soon as possible.</p>
         </div>
         <div className="lg:w-1/2 md:w-2/3 mx-auto">
@@ -77,12 +77,12 @@ const Contact = () => {
               </div>
             </div>
             <div className="p-2 w-full">
-              <button className="flex mx-auto text-white bg-teal-500 border-0 py-2 px-8 focus:outline-none hover:bg-teal-700 font-bold rounded text-lg">Submit</button>
+              <button className="flex mx-auto text-white bg-teal-400 border-0 py-2 px-8 focus:outline-none hover:bg-teal-700 font-bold rounded text-lg">Submit</button>
             </div>
             <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
               {/* <a className="text-rose-500 text-wrap">arpitivf@gmail.com</a> */}
               <a href="mailto:arpitivf@gmail.com?subject=Inquiry&body=Hello, I have a question about..." className='text-teal-700' target="_blank">jeevanjyotihospital@gmail.com</a>
-              <a href='https://www.google.com/maps/place/%F0%9D%97%9D%F0%9D%97%B2%F0%9D%97%B2%F0%9D%98%83%F0%9D%97%AE%F0%9D%97%BB+%F0%9D%97%9D%F0%9D%98%86%F0%9D%97%BC%F0%9D%98%81%F0%9D%97%B6+%F0%9D%97%9B%F0%9D%97%BC%F0%9D%98%80%F0%9D%97%BD%F0%9D%97%B6%F0%9D%98%81%F0%9D%97%AE%F0%9D%97%B9+-+Best+Hospital+%7CEmergency+Hospital+in+Allahabad+%7CLaparoscopic+Surgeon+%26+Hernia/@25.4362706,81.8466593,1963m/data=!3m1!1e3!4m6!3m5!1s0x399acab52d38021f:0x7a5c69d06d09297b!8m2!3d25.4363194!4d81.8465814!16s%2Fg%2F1tdvy9c5?entry=ttu&g_ep=EgoyMDI1MDgyNS4wIKXMDSoASAFQAw%3D%3D'  className="leading-normal block my-5" target='_blank'>162 Bai Ka Bagh, Lowther Rd, Jeevan Jyoti Hospital, Prayagraj, Uttar Pradesh 211003
+              <a href='https://www.google.com/maps/place/%F0%9D%97%9D%F0%9D%97%B2%F0%9D%97%B2%F0%9D%98%83%F0%9D%97%AE%F0%9D%97%BB+%F0%9D%97%9D%F0%9D%98%86%F0%9D%97%BC%F0%9D%98%81%F0%9D%97%B6+%F0%9D%97%9B%F0%9D%97%BC%F0%9D%98%80%F0%9D%97%BD%F0%9D%97%B6%F0%9D%98%81%F0%9D%97%AE%F0%9D%97%B9+-+Best+Hospital+%7CEmergency+Hospital+in+Allahabad+%7CLaparoscopic+Surgeon+%26+Hernia/@25.4362706,81.8466593,1963m/data=!3m1!1e3!4m6!3m5!1s0x399acab52d38021f:0x7a5c69d06d09297b!8m2!3d25.4363194!4d81.8465814!16s%2Fg%2F1tdvy9c5?entry=ttu&g_ep=EgoyMDI1MDgyNS4wIKXMDSoASAFQAw%3D%3D'  className="leading-normal block my-5" target='_blank'>Dargah Hazrat Abbas Road, Pipal Chauraha, Katehra Dariyabad, Prayagraj, Uttar Pradesh 211003
               </a>
               <div className='flex m-auto w-fit'>
                 <a href="https://www.instagram.com/jeevanjyotihospitalprayagraj/" target='_blank'>
