@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
 import "aos/dist/aos.css";
-import WebBannerAlShifa from "../assets/Heros/WebBannerAlShifa.JPG";
+// import WebBannerAlShifa from "../assets/Heros/WebBannerAlShifa.JPG";
 import Banner2 from "../assets/Heros/Banner2.JPG";
 import "../Style/Style.css";
 
 const Head = () => {
   const images = [
-    WebBannerAlShifa,
+    // WebBannerAlShifa,
     Banner2,
     // sliderWelcome,
     // slider01,
