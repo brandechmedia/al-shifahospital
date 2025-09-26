@@ -9,7 +9,7 @@ import { VscLayoutPanel } from "react-icons/vsc";
 import { IoLocationOutline } from "react-icons/io5";
 import { MdOutlineMail } from "react-icons/md";
 import { IoCallOutline } from "react-icons/io5";
-import LogoAlShifa from '../assets/LogoAlShifa.png'
+import LogoAlShifaa from '../assets/LogoAlShifaa.png'
 import {
   ChevronDownIcon,
   PlusIcon,
@@ -72,7 +72,7 @@ function NavigationB() {
           {/* <div className="text-white text-lg font-bold">ARPIT TEST TUBE BABY CENTRE</div> */}
           <Link to='/' className="flex items-center flex-shrink-0 ml-6 lg:ml-10 lg:mr-32">
             <span className=" font-bol flex md:font-thin text-roe-400 ">
-              <img src={LogoAlShifa} className="w-56 md:w-80" alt="" />
+              <img src={LogoAlShifaa} className="w-56 md:w-80" alt="" />
               {/* Jeevan Jyoti Hospital */}
 
             </span>
@@ -268,18 +268,18 @@ function NavigationB() {
                 onMouseLeave={() => setIsAboutDropdownOpen(false)}
                 className="ml-4 bg-gray-800 text-white pl-5 py-2 rounded-md"
               >
-                <Link to='our-founder' className="block px-4 py-2">
+                {/* <Link to='our-founder' className="block px-4 py-2">
                   Our Founders
-                </Link>
+                </Link> */}
                 <Link to='our-profile' className="block px-4 py-2">
                   Our Profile
                 </Link>
                 <Link to='our-vision-mission' className="block px-4 py-2">
-                  Our Vision & Mission
+                  Why Choose Us
                 </Link>
-                <Link to='spiritual-journey' className="block px-4 py-2">
+                {/* <Link to='spiritual-journey' className="block px-4 py-2">
                   Spiritual Journey
-                </Link>
+                </Link> */}
               </div>
             )}
             <button
@@ -301,108 +301,108 @@ function NavigationB() {
                 <a className="dropdownn">
                   <Link to='speciality/interventional-radiology' className="dropbtnn">Interventional Radiology</Link>
                 </a>
-                <a className="dropdownn">
+                {/* <a className="dropdownn">
                   <Link to='speciality/clinical-genetics' className="dropbtnn">Clinical Genetics</Link>
-                </a>
-                <a className="dropdownn">
+                </a> */}
+                {/* <a className="dropdownn">
                   <Link to='speciality/surgical-oncology' className="dropbtnn">Onco Surgical Oncology</Link>
-                </a>
-                <a className="dropdownn">
+                </a> */}
+                {/* <a className="dropdownn">
                   <Link to='speciality/bariatric-and-weight-loss-surgery' className="dropbtnn">Bariatric Surgery</Link>
-                </a>
-                <a className="dropdownn">
+                </a> */}
+                {/* <a className="dropdownn">
                   <Link to='speciality/laser-treatment-in-general-surgery' className="dropbtnn">Laser Surgery for Piles & Varicose Veins</Link>
-                </a>
-                <a className="dropdownn">
+                </a> */}
+                {/* <a className="dropdownn">
                   <Link to='speciality/urology' className="dropbtnn">Urology Surgery</Link>
-                </a>
+                </a> */}
                 <a className="dropdownn">
                   <Link to='speciality/neuro-surgery' className="dropbtnn">Neuro Surgery</Link>
                 </a>
-                <a className="dropdownn">
+                {/* <a className="dropdownn">
                   <Link to='speciality/plastic-surgery' className="dropbtnn">Plastic Surgery</Link>
-                </a>
-                <a className="dropdownn">
+                </a> */}
+                {/* <a className="dropdownn">
                   <Link to='speciality/burn-unit' className="dropbtnn">Burn Unit</Link>
-                </a>
+                </a> */}
                 <a className="dropdownn">
                   <Link to='speciality/obstetrics-and-gynaecology' className="dropbtnn">Obstetrics & Gynaecology</Link>
                 </a>
-                <a className="dropdownn">
+                {/* <a className="dropdownn">
                   <Link to='speciality/infertility-and-ivf' className="dropbtnn">Infertility & IVF</Link>
-                </a>
-                <a className="dropdownn">
+                </a> */}
+                {/* <a className="dropdownn">
                   <Link to='speciality/well-womens-clinic' className="dropbtnn">Well Women’s Clinic</Link>
-                </a>
-                <a className="dropdownn">
+                </a> */}
+                {/* <a className="dropdownn">
                   <Link to='speciality/breast-clinic' className="dropbtnn">Breast Clinic</Link>
-                </a>
+                </a> */}
                 <a className="dropdownn">
                   <Link to='speciality/high-risk-pregnancy-care' className="dropbtnn">High Risk Pregnancy Care</Link>
                 </a>
                 <a className="dropdownn">
                   <Link to='speciality/pediatrics-and-neonatology' className="dropbtnn">Pediatrics & Neonatology</Link>
                 </a>
-                <a className="dropdownn">
+                {/* <a className="dropdownn">
                   <Link to='speciality/orthopaedics-and-joint-replacement' className="dropbtnn">Orthopaedics & Joint Replacement</Link>
-                </a>
-                <a className="dropdownn">
+                </a> */}
+                {/* <a className="dropdownn">
                   <Link to='speciality/trauma-centre-and-emergency-services' className="dropbtnn">Trauma Centre</Link>
-                </a>
-                <a className="dropdownn">
+                </a> */}
+                {/* <a className="dropdownn">
                   <Link to='speciality/cardiology' className="dropbtnn">Cardiac Care Unit</Link>
-                </a>
+                </a> */}
                 <a className="dropdownn">
                   <Link to='speciality/opthalmology' className="dropbtnn">Department of Ophthalmology</Link>
                 </a>
                 <a className="dropdownn">
                   <Link to='speciality/ear-nose-and-throat' className="dropbtnn">Department of ENT</Link>
                 </a>
-                <a className="dropdownn">
+                {/* <a className="dropdownn">
                   <Link to='speciality/dentistry' className="dropbtnn">Department of Dental Care</Link>
-                </a>
-                <a className="dropdownn">
+                </a> */}
+                {/* <a className="dropdownn">
                   <Link to='speciality/anaesthesiology-and-critical-care' className="dropbtnn">Department of Anaesthesiology & Pain</Link>
-                </a>
-                <a className="dropdownn">
+                </a> */}
+                {/* <a className="dropdownn">
                   <Link to='speciality/nephrology' className="dropbtnn">Department of Nephrology</Link>
-                </a>
+                </a> */}
                 <a className="dropdownn">
                   <Link to='speciality/department-of-gastroenterology' className="dropbtnn">Department of Gastroenterology</Link>
                 </a>
-                <a className="dropdownn">
+                {/* <a className="dropdownn">
                   <Link to='speciality/neuro-physician-and-stroke-medicine' className="dropbtnn">Neuro Physician and Stroke Medicine</Link>
-                </a>
-                <a className="dropdownn">
+                </a> */}
+                {/* <a className="dropdownn">
                   <Link to='speciality/colposcopy' className="dropbtnn">Colposcopy</Link>
-                </a>
-                <a className="dropdownn">
+                </a> */}
+                {/* <a className="dropdownn">
                   <Link to='speciality/neuro-physician-and-stroke-medicine' className="dropbtnn">Pulmonary Medicine</Link>
-                </a>
-                <a className="dropdownn">
+                </a> */}
+                {/* <a className="dropdownn">
                   <Link to='speciality/psychiatric-and-psychology' className="dropbtnn">Psychiatric Department & Psychology</Link>
-                </a>
+                </a> */}
                 <a className="dropdownn">
                   <Link to='speciality/skin-care-and-dermatology' className="dropbtnn">Skin Care and Dermatology</Link>
                 </a>
                 <a className="dropdownn">
                   <Link to='speciality/diagnostic-services' className="dropbtnn">Diagnostic Services</Link>
                 </a>
-                <a className="dropdownn">
+                {/* <a className="dropdownn">
                   <Link to='speciality/pain-management' className="dropbtnn">Pain Management</Link>
-                </a>
-                <a className="dropdownn">
+                </a> */}
+                {/* <a className="dropdownn">
                   <Link to='speciality/internal-medicine' className="dropbtnn">Internal Medicine</Link>
-                </a>
-                <a className="dropdownn">
+                </a> */}
+                {/* <a className="dropdownn">
                   <Link to='speciality/laser-treatment-in-gynecology' className="dropbtnn">Laser Treatment in Gynaecology</Link>
-                </a>
-                <a className="dropdownn">
+                </a> */}
+                {/* <a className="dropdownn">
                   <Link to='speciality/prp-treatment-gynecology' className="dropbtnn">PRP Treatment in Gynaecology</Link>
-                </a>
-                <a className="dropdownn">
+                </a> */}
+                {/* <a className="dropdownn">
                   <Link to='speciality/respiratory-medicine' className="dropbtnn">Respiratory Medicine</Link>
-                </a>
+                </a> */}
               </div>
             )}
             <Link to='facilities' className="text-black py-3 border-b-2 font-semibold">

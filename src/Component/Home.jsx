@@ -19,7 +19,7 @@ const Home = () => {
   return (
     <div>
       <Helmet>
-        <title>Jeevan Jyoti Hospital | Best Hospital in Prayagraj</title>
+        <title>Al-Shifa Hospital | Best Hospital in Prayagraj</title>
         <meta name="description" content="Arpit Test Tube Baby Centre, Prayagraj – trusted IVF and fertility clinic with advanced technology, expert team, and high success rates. Book your consultation today!" />
         <meta name="keywords" content="gynecologist, women's health, pregnancy care, PCOS treatment" />
         <meta property="og:title" content="Best Gynecology Services" />
