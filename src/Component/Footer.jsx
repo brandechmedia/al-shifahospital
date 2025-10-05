@@ -282,7 +282,7 @@ const Footer = () => {
               <span className="ml-3 text-xl">Best IVF Centre in Prayagraj</span>
             </a> */}
             <p className="text-sm text-gray-700 sm:ml-6 sm:mt-0">
-              © 2025 Jeevan Jyoti Hospital | All rights reserved
+              © 2025 Al-Shifa Hospital | All rights reserved
             </p>
             {/* <div className="text-center">
               <Link to='terms-and-condition'>
