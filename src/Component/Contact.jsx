@@ -81,20 +81,20 @@ const Contact = () => {
             </div>
             <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
               {/* <a className="text-rose-500 text-wrap">arpitivf@gmail.com</a> */}
-              <a href="mailto:arpitivf@gmail.com?subject=Inquiry&body=Hello, I have a question about..." className='text-teal-700' target="_blank">jeevanjyotihospital@gmail.com</a>
+              <a href="mailto:alshifahospital23@gmail.com?subject=Inquiry&body=Hello, I have a question about..." className='text-teal-700' target="_blank">alshifahospital23@gmail.com</a>
               <a href='https://www.google.com/maps/place/%F0%9D%97%9D%F0%9D%97%B2%F0%9D%97%B2%F0%9D%98%83%F0%9D%97%AE%F0%9D%97%BB+%F0%9D%97%9D%F0%9D%98%86%F0%9D%97%BC%F0%9D%98%81%F0%9D%97%B6+%F0%9D%97%9B%F0%9D%97%BC%F0%9D%98%80%F0%9D%97%BD%F0%9D%97%B6%F0%9D%98%81%F0%9D%97%AE%F0%9D%97%B9+-+Best+Hospital+%7CEmergency+Hospital+in+Allahabad+%7CLaparoscopic+Surgeon+%26+Hernia/@25.4362706,81.8466593,1963m/data=!3m1!1e3!4m6!3m5!1s0x399acab52d38021f:0x7a5c69d06d09297b!8m2!3d25.4363194!4d81.8465814!16s%2Fg%2F1tdvy9c5?entry=ttu&g_ep=EgoyMDI1MDgyNS4wIKXMDSoASAFQAw%3D%3D'  className="leading-normal block my-5" target='_blank'>Dargah Hazrat Abbas Road, Pipal Chauraha, Katehra Dariyabad, Prayagraj, Uttar Pradesh 211003
               </a>
               <div className='flex m-auto w-fit'>
-                <a href="https://www.instagram.com/jeevanjyotihospitalprayagraj/" target='_blank'>
+                <a href="https://www.instagram.com/" target='_blank'>
                   <FaInstagram className='mx-2 text-teal-600 text-xl' />
                 </a>
-                <a href="https://www.facebook.com/jeevanjyotihospitalprayagraj" target='_blank'>
+                <a href="https://www.facebook.com/" target='_blank'>
                   <FaFacebook className='mx-2 text-teal-600 text-xl' />
                 </a>
-                <a href="https://www.youtube.com/@jeevanjyotihospital6176/featured" target='_blank'>
+                <a href="https://www.youtube.com/" target='_blank'>
                   <FaYoutube className='mx-2 text-teal-600 text-xl' />
                 </a>
-                <a href="https://www.linkedin.com/in/dr-vandana-bansal-5916279b/" target='_blank'>
+                <a href="https://www.linkedin.com/in" target='_blank'>
                   <FaLinkedinIn className='mx-2 text-teal-600 text-xl' />
                 </a>
               </div>
