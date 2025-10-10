@@ -5,7 +5,7 @@ const Contact = () => {
     event.preventDefault();
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "9ae219bb-e2cc-4d0e-97fa-7a21c660e105");
+    formData.append("access_key", "db3870d5-3e5d-4822-bc5b-748a5e2f40f2");
 
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
@@ -85,14 +85,11 @@ const Contact = () => {
               <a href='https://www.google.com/maps/place/%F0%9D%97%9D%F0%9D%97%B2%F0%9D%97%B2%F0%9D%98%83%F0%9D%97%AE%F0%9D%97%BB+%F0%9D%97%9D%F0%9D%98%86%F0%9D%97%BC%F0%9D%98%81%F0%9D%97%B6+%F0%9D%97%9B%F0%9D%97%BC%F0%9D%98%80%F0%9D%97%BD%F0%9D%97%B6%F0%9D%98%81%F0%9D%97%AE%F0%9D%97%B9+-+Best+Hospital+%7CEmergency+Hospital+in+Allahabad+%7CLaparoscopic+Surgeon+%26+Hernia/@25.4362706,81.8466593,1963m/data=!3m1!1e3!4m6!3m5!1s0x399acab52d38021f:0x7a5c69d06d09297b!8m2!3d25.4363194!4d81.8465814!16s%2Fg%2F1tdvy9c5?entry=ttu&g_ep=EgoyMDI1MDgyNS4wIKXMDSoASAFQAw%3D%3D'  className="leading-normal block my-5" target='_blank'>Dargah Hazrat Abbas Road, Pipal Chauraha, Katehra Dariyabad, Prayagraj, Uttar Pradesh 211003
               </a>
               <div className='flex m-auto w-fit'>
-                <a href="https://www.instagram.com/" target='_blank'>
+                <a href="https://www.instagram.com/al_shifahospital/" target='_blank'>
                   <FaInstagram className='mx-2 text-teal-600 text-xl' />
                 </a>
-                <a href="https://www.facebook.com/" target='_blank'>
+                <a href="https://www.facebook.com/profile.php?id=61582001273182" target='_blank'>
                   <FaFacebook className='mx-2 text-teal-600 text-xl' />
-                </a>
-                <a href="https://www.youtube.com/" target='_blank'>
-                  <FaYoutube className='mx-2 text-teal-600 text-xl' />
                 </a>
                 <a href="https://www.linkedin.com/in" target='_blank'>
                   <FaLinkedinIn className='mx-2 text-teal-600 text-xl' />

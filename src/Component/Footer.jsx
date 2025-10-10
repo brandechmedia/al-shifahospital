@@ -30,27 +30,6 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link class="flex hover:text-white items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="speciality/advanced-hysteroscopy">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right">
-                    <path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
-                  <span>Advance Hysteroscopy</span>
-                </Link>
-              </li>
-              <li>
-                <Link class="flex hover:text-white items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="speciality/interventional-radiology">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right">
-                    <path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
-                  <span>Surgical Oncology</span>
-                </Link>
-              </li>
-              <li>
-                <Link class="flex hover:text-white items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="speciality/bariatric-and-weight-loss-surgery">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right">
-                    <path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
-                  <span>Bariatric and Weight Loss Surgery</span>
-                </Link>
-              </li>
-              <li>
                 <Link class="flex hover:text-white items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="speciality/obstetrics-and-gynaecology">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right">
                     <path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
@@ -58,24 +37,10 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link class="flex hover:text-white items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="speciality/infertility-and-ivf">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right">
-                    <path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
-                  <span>Infertility and IVF</span>
-                </Link>
-              </li>
-              <li>
                 <Link class="flex hover:text-white items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="speciality/high-risk-pregnancy-care">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right">
                     <path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
                   <span>High Risk Pregnancy Care</span>
-                </Link>
-              </li>
-              <li>
-                <Link class="flex hover:text-white items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="speciality/well-womens-clinic">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right">
-                    <path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
-                  <span>Well Women’s Clinic</span>
                 </Link>
               </li>
               <li>
@@ -93,13 +58,6 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link class="flex hover:text-white items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="speciality/trauma-centre-and-emergency-services">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right">
-                    <path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
-                  <span>Trauma Centre and Emergency Services</span>
-                </Link>
-              </li>
-              <li>
                 <Link class="flex hover:text-white items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="speciality/cardiology">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right">
                     <path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
@@ -107,57 +65,10 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link class="flex hover:text-white items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="speciality/psychiatric-and-psychology">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right">
-                    <path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
-                  <span>Psychiatric and Psychology</span>
-                </Link>
-              </li>
-              <li>
                 <Link class="flex hover:text-white items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="speciality/diagnostic-services">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right">
                     <path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
                   <span>Diagnostic Services</span>
-                </Link>
-              </li>
-            </ul>
-          </div>
-          <div className="lg:w-1/6 md:w-1/3 w-full md:px-4">
-            <h2 className="text-teal-200 font-asap font-semibold text-2xl mt-10 relative inline-block after:block after:h-[2px] after:bg-white after:scale-x-0 after:transition-transform after:duration-300 after:origin-left hover:after:scale-x-100 ">
-              Facilities
-            </h2>
-            <ul class="text-gray-200 flex flex-col mt-2 space-y-2 text-base">
-              <li>
-                <Link class="flex hover:text-white items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/test-evaluation/hormonal-analysis">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right">
-                    <path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
-                  <span>Hormonal Analysis</span>
-                </Link>
-              </li>
-              <li>
-                <Link class="flex hover:text-white items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/test-evaluation/ai-semen-analysis">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right">
-                    <path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
-                  <span>AI Assisted Semen Analysis</span>
-                </Link>
-              </li>
-              <li>
-                <Link class="flex hover:text-white items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/test-evaluation/surgery-for-male-infertility">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right">
-                    <path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
-                  <span>Surgery for Male Infertility</span>
-                </Link>
-              </li>
-              <li>
-                <Link class="flex hover:text-white items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/test-evaluation/prp-treatment">
-                  <FaArrowRight />
-                  <span>PRP Treatment of Endometrium & Ovary</span>
-                </Link>
-              </li>
-              <li>
-                <Link class="flex hover:text-white items-center hover:text-primary gap-1 hover:ml-1 duration-200" to="/test-evaluation/stemcell-therapy">
-                  <FaArrowRight />
-                  <span>Stem Cell Therapy</span>
                 </Link>
               </li>
             </ul>
@@ -278,22 +189,9 @@ const Footer = () => {
         <div className="bg-zinc-50 border-t-2">
           <div className="container md:px-5 w-fit p-2 md:py-6 mx-auto 
             sm:flex-row flex-col">
-            {/* <a className="text-white flex title-font font-medium items-center md:justify-start justify-center">
-              <span className="ml-3 text-xl">Best IVF Centre in Prayagraj</span>
-            </a> */}
             <p className="text-sm text-gray-700 sm:ml-6 sm:mt-0">
               © 2025 Al-Shifa Hospital | All rights reserved
             </p>
-            {/* <div className="text-center">
-              <Link to='terms-and-condition'>
-                Term & Condition
-              </Link>
-              |
-              <Link to="privacy-policy texy">
-                Privacy Policy
-              </Link>|
-              <span>Design by Salman Ansari</span>
-            </div> */}
           </div>
         </div>
       </footer>

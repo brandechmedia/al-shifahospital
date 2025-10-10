@@ -17,7 +17,7 @@ const ContactButton = () => {
             <a href="mailto:drvandanabansal921@gmail.com?subject=Inquiry&body=Hello, I have a question about..." target="_blank"> <FaEnvelope size={20} /></a>
             </button>
             <button className="bg-teal-500 text-white p-2 rounded-full shadow-lg hover:bg-red-700 transition-all">
-            <a href="https://wa.me/message/JG2WQ7ZXYWU6B1" target="_blank"><FaWhatsapp size={20} /></a>
+            <a href="" target="_blank"><FaWhatsapp size={20} /></a>
             </button>
             <button className="bg-teal-500 text-white p-2 rounded-full hover:text-rose-500 shadow-lg hover:bg-hite  transition-all">
              <a href="tel:9151037784"> <FaPhone  size={20} /></a>

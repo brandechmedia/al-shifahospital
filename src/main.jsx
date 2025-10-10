@@ -15,8 +15,6 @@ import Gallery from './Pages/Gallery.jsx'
 import BookYourAppointment from './Pages/BookYourAppointment.jsx'
 
 import NotFound from './Pages/NotFound.jsx'
-import TermsAndConditions from './Pages/TermsAndCondition.jsx'
-import PrivacyPolicy from './Pages/PrivacyPolicy.jsx'
 
 import Overview from './Pages/AboutUs/Overview.jsx'
 import ENT from './Pages/OurSpecialities/ENT.jsx'
@@ -55,8 +53,6 @@ import PainManagement from './Pages/OurSpecialities/PainManagement.jsx'
 import InternalMedicine from './Pages/OurSpecialities/InternalMedicine.jsx'
 import DiagnosticServices from './Pages/OurSpecialities/DiagnosticServices.jsx'
 import NeuroPhysicianAndStrokeMedicine from './Pages/OurSpecialities/NeuroPhysicianAndStrokeMedicine.jsx'
-import WhyChooseUs from './Pages/AboutUs/WhyChooseUs.jsx'
-import DirectorsMessage from './Pages/AboutUs/DirectorsMessage.jsx'
 import Consultants from './Pages/Consultants.jsx'
 import FacilitiesOfHospital from './Pages/FacilitiesOfHospital.jsx'
 import TpaCashless from './Pages/TPACashless.jsx'
@@ -109,16 +105,6 @@ const router = createBrowserRouter([
         children: []
       },
       {
-        path: 'directors-message',
-        element: <DirectorsMessage />,
-        children: []
-      },
-      {
-        path: 'Why-choose-us',
-        element: <WhyChooseUs />,
-        children: []
-      },
-      {
         path: 'consultants',
         element: <Consultants />,
         children: []
@@ -126,16 +112,6 @@ const router = createBrowserRouter([
       {
         path: 'tpa-cashless-facilities',
         element: <TpaCashless />,
-        children: []
-      },
-      {
-        path: 'terms-and-condition',
-        element: <TermsAndConditions />,
-        children: []
-      },
-      {
-        path: 'privacy-policy',
-        element: <PrivacyPolicy />,
         children: []
       },
       // for jjh website matter.....................................

@@ -1,7 +1,7 @@
 import { useLocation, Link } from "react-router-dom";
 import { IoMdHome } from "react-icons/io";
 // import BackCover from '../assets/BackCover.png'
-import InnerBanner from '../assets/InnerBanner.jpg'
+// import InnerBanner from '../assets/InnerBanner.jpg'
 const CurrentRoute = () => {
   const location = useLocation();
   const pathnames = location.pathname.split("/").filter(Boolean); // removes empty string from split
@@ -9,8 +9,9 @@ const CurrentRoute = () => {
     return null;
   }
   return (
-    <div className="text-sm text-white pt-20 pb-10 md:pb-10 md:pt-64 px-8 md:px-40  mx-auto bg-cover bg-center h-40 md:h-96 w-full"
-    style={{ backgroundImage: `url(${InnerBanner})` }}>
+    <div className="text-sm text-white pt-20 bg-slate-200 pb-10 md:pb-10 md:pt-64 px-8 md:px-40  mx-auto bg-cover bg-center h-40 md:h-96 w-full"
+    // style={{ backgroundImage: `url(${InnerBanner})` }}
+    >
       <nav className="flex flex-wrap items-center space-x-1">
         <IoMdHome className="md:text-2xl text-white" />
         <Link to="/" className="text-white md:text-2xl hover:underline font-medium">
