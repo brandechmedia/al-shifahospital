@@ -126,7 +126,7 @@ const Footer = () => {
               {/* <li>
               </li> */}
             </nav>
-            <a href='https://maps.app.goo.gl/UyiKVZiL3H9uu4Bh9' className="my-4 text-white" target="_blank">
+            <a href='https://maps.app.goo.gl/mKof4aTkdLZvw8r99' className="my-4 text-white" target="_blank">
               <IoLocationOutline className="inline text-white text-xl" />Dargah Hazrat Abbas Road, Pipal Chauraha, Katehra Dariyabad, Prayagraj, Uttar Pradesh 211003
             </a>
             <a className="my-3 text-white block" target="_blank" href="tel:8840003060">
