@@ -30,7 +30,7 @@ function NewsAndEvents() {
       title: "Remembrance of Dr. A.K. Bansal – 69th Birthday Celebration",
       date: "Sun Sep 01 2024",
       category: "Event",
-      desc: "We observed the 69th birth anniversary of Dr. A.K. Bansal with deep respect and heartfelt remembrance. The celebration was held at Jeevan Jyoti Hospital on September 1, 2024",
+      desc: "We observed the 69th birth anniversary of Dr. A.K. Bansal with deep respect and heartfelt remembrance. The celebration was held at Al-Shifa Hospital on September 1, 2024",
       image: BirthdayBansal,
     },
     {
@@ -47,7 +47,7 @@ function NewsAndEvents() {
       title: "Nursing Day Celebration",
       date: "Tue May 12 2024",
       category: "Event",
-      desc: "The Nursing Department of Jeevan Jyoti Hospital celebrated International Nursing Day with gratitude and pride.",
+      desc: "The Nursing Department of Al-Shifa Hospital celebrated International Nursing Day with gratitude and pride.",
       image: NursingDay,
     },
   ];

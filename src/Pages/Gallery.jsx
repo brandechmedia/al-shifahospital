@@ -11,7 +11,7 @@ const Gallery = () => {
     return (
         <>
             <Helmet>
-                <title>Gallery: Arpit Test Tube Baby Centre Prayagraj</title>
+                <title>Al-Shifa Hospital</title>
                 <meta name="description" content="Explore the Arpit IVF Centre gallery – see our world-class infrastructure, lab facilities, and patient-friendly environment in Prayagraj." />
                 <meta name="keywords" content="gynecologist, women's health, pregnancy care, PCOS treatment" />
                 <meta property="og:title" content="Best IVF and Gynecology Services" />
@@ -20,7 +20,7 @@ const Gallery = () => {
             <section class="text-gray-600 body-font">
                 <div class="container px-2 md:px-5 py-24 mx-auto">
                     <div class="flex flex-col text-center w-full mb-20">
-                        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Gallery: Jeevan Jyoti Hospital</h1>
+                        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Gallery: Al-Shifa Hospital</h1>
                         <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom.</p>
                     </div>
                     <div class="flex flex-wrap -m-4">

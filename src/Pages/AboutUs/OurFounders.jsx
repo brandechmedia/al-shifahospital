@@ -15,17 +15,17 @@ export default function Founders() {
         />
         <div>
           <h2 className="text-lg font-semibold text-gray-900">
-            Late Dr. A.K Bansal
+            Dr Mohammad Rashid
           </h2>
           <p className="text-sm font-medium text-gray-700">
-            MBBS, MS, FACS, FCPS, FAGE
+            General Physician
           </p>
           <p className="mt-2">
             Late Dr. Ashwini Kumar Bansal was one of the most renowned Senior
             Laparoscopic and General Surgeons, who has a heart of gold. He was a
             leading pediatric laparoscopic and general surgeon of North India.
             He was the Founder and Director of the 210-bed Multi Specialty &
-            Super specialty Jeevan Jyoti Hospital located in Prayagraj.
+            Super specialty Al-Shifa Hospital located in Prayagraj.
           </p>
           <p className="mt-2">
             Dr. Late A.K Bansal was immensely honoured by his fellow medical.
@@ -111,7 +111,7 @@ export default function Founders() {
             Dr. Vandana Bansal is a renowned Senior Gynecologist and
             Obstetrician in the state of Uttar Pradesh. She is specialized in
             Laparoscopy and Hysteroscopic Surgery since 1992. She is the
-            Director of the 210-bed multi-specialty Jeevan Jyoti Hospital and
+            Director of the 210-bed multi-specialty Al-Shifa Hospital and
             Test Tube Baby Center, Prayagraj. A Hospital having completed 25
             years in October 2018. A Silver Jubilee edition.
           </p>
@@ -138,7 +138,7 @@ export default function Founders() {
           <p className="mt-2">
             Dr. Vandana Bansal, a restless medico, has an excellent team, who
             helps and support; she has been able to write success story of
-            Jeevan Jyoti Hospital. Totally committed to keeping hope alive by
+            Al-Shifa Hospital. Totally committed to keeping hope alive by
             ensuring the best healthcare for the common man through the state of
             the art-facilities under one roof in a pollution free domain, who
             leads by example in order to promote mutual trust and confidence
@@ -154,7 +154,7 @@ export default function Founders() {
           <p className="mt-2">
             As a female specialist in her field, she has helped many of
             childless couples "the NO". Childless couples have traveled to her
-            chambers in Jeevan Jyoti Hospital to have babies and realize their
+            chambers in Al-Shifa Hospital to have babies and realize their
             dream of becoming parents. Not only from India but also from
             countries like USA, UK, Germany and United Kingdom.
           </p>
@@ -178,7 +178,7 @@ export default function Founders() {
             they make the right decision over medicine. She does her best to
             create a healing environment that promotes health.
           </p>
-          <p className="mt-5 font-bold">We at Jeevan Jyoti Hospital take immense pride in our founders and are willing to walk the extra mile under their able guidance.</p>
+          <p className="mt-5 font-bold">We at Al-Shifa Hospital take immense pride in our founders and are willing to walk the extra mile under their able guidance.</p>
         </div>
         <img
           src={DrVandanaPhoto}

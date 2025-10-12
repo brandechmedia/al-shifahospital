@@ -12,8 +12,8 @@ import InterventionalRadiology from '../assets/Facilities/InterventionalRadiolog
 
 function Facilities() {
     const cards = [
-        { id: 1, title: "Laparoscopy Surgery", desc: "The Laparoscopic Surgery Centre at ‘Jeevan Jyoti Hospital’, the first of its kind in Allahabad is functioning with exclusive", images: LaparoscopicSurgery },
-        { id: 2, title: "Bariatic Surgery", desc: "Bariatric surgery at Jeevan Jyoti Hospital is performed by one of the best bariatric surgeon Dr. Arpit Bansal and his team.", images: BariatricSurgery },
+        { id: 1, title: "Laparoscopy Surgery", desc: "The Laparoscopic Surgery Centre at ‘Al-Shifa Hospital’, the first of its kind in Allahabad is functioning with exclusive", images: LaparoscopicSurgery },
+        { id: 2, title: "Bariatic Surgery", desc: "Bariatric surgery at Al-Shifa Hospital is performed by one of the best bariatric surgeon Dr. Arpit Bansal and his team.", images: BariatricSurgery },
         { id: 3, title: "Infertility & IVF", desc: "Test tube baby centre, IVF-ET, ICSI, IUI, IMSI, Laser Assisted Hatching, TESA, MESA, Male Infertility management.", images: lab0 },
         { id: 4, title: "Obstretics & Gynaecology", desc: "Medical specialty that encompasses the two subspecialties of Obstetrics covering pregnancy & childbirth and Gynaecology.", images: ObstetricsGynaecology },
         { id: 5, title: "Interventional Radiology", desc: "Revolutionising Patient care with minimally invasive & targeted treatment. (New age targeted diagnostic & therapeutic", images: InterventionalRadiology },

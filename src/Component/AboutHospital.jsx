@@ -11,7 +11,7 @@ const AboutHospital = () => {
       {/* Moving Marquee Text */}
       <div className="overflow-hidden whitespace-nowrap mt-2">
         <div className="animate-marquee text-orange-600 font-semibold">
-          Jeevan Jyoti Hospital, Prayagraj is a NABH Accredited Hospital
+          Al-Shifa Hospital, Prayagraj is a NABH Accredited Hospital
         </div>
       </div>
 
@@ -19,12 +19,12 @@ const AboutHospital = () => {
       <div className="mt-6">
         <h2 className="text-3xl font-bold text-gray-800">
           About <br />
-          <span className="text-4xl">Jeevan Jyoti Hospital</span>
+          <span className="text-4xl">Al-Shifa Hospital</span>
         </h2>
         <p className="mt-4 text-gray-600 leading-relaxed max-w-4xl">
-          Jeevan Jyoti Hospital is a 210-Beds, CGHS Approved, NABH Accredited,
+          Al-Shifa Hospital is a 210-Beds, CGHS Approved, NABH Accredited,
           ISO 2015 and NABL Medical Lab approved multi-speciality hospital in
-          Prayagraj. Jeevan Jyoti Hospital is Best Hospital in Prayagraj For Any
+          Prayagraj. Al-Shifa Hospital is Best Hospital in Prayagraj For Any
           Types of Health Treatment. Here You Get The Best Physician in
           Allahabad.
           <br />

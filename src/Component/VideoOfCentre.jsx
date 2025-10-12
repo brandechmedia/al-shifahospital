@@ -47,7 +47,7 @@ const VideoOfCentre = () => {
 
   return (
     <div className="flex justify-center">
-      {/* <h3 className='px-10 pt-16 hidden 2xl:block text-7xl font-asap font-semibold text-white'>Jeevan Jyoti Hospital Prayagraj</h3>
+      {/* <h3 className='px-10 pt-16 hidden 2xl:block text-7xl font-asap font-semibold text-white'>Al-Shifa Hospital Prayagraj</h3>
       <video
         ref={videoRef}
         className="w-full rounded-xl max-w-5xl"

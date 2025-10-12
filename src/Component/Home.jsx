@@ -10,11 +10,11 @@ import Appointment from './Appointment'
 import { Helmet } from "react-helmet";
 import Arrow from './Arrow'
 import ContactButton from './ContactButton'
-import Facilities from './Facilities'
-import NewsAndEvents from './NewsAndEvents'
-import AboutHospital from './AboutHospital'
-import Highlights from '../assets/Highlights.png'
-import Milestone from './Milestone'
+// import Facilities from './Facilities'
+// import NewsAndEvents from './NewsAndEvents'
+// import AboutHospital from './AboutHospital'
+// import Highlights from '../assets/Highlights.png'
+// import Milestone from './Milestone'
 const Home = () => {
   return (
     <div>

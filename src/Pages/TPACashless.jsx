@@ -13,7 +13,7 @@ function TpaCashless() {
 
       {/* Intro */}
       <p className="text-center max-w-3xl mx-auto mb-12">
-        We, at Jeevan Jyoti Hospital have made sure that your health insurance is a top
+        We, at Al-Shifa Hospital have made sure that your health insurance is a top
         priority. Your financials is the last thing we want you to worry about, when a loved
         one needs health care.
       </p>
@@ -94,7 +94,7 @@ function TpaCashless() {
 
       {/* Footer note */}
       <p className="mt-10 text-center bg-teal-600  text-white p-3 rounded-xl">
-        We at Jeevan Jyoti Hospital have a history of treating corporate patients, since the year 2002.
+        We at Al-Shifa Hospital have a history of treating corporate patients, since the year 2002.
       </p>
     </div>
   );
