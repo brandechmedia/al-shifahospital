@@ -24,7 +24,7 @@ const doctors = [
     qualification: "",
     specialization: "General physician",
     experience: "",
-    image: PravinKTripathi,
+    image: "",
   },
   {
     name: "Dr Tariq Ansari",
@@ -38,13 +38,13 @@ const doctors = [
     qualification: "MBBS, DGO",
     specialization: "Gynecologist & Infertility Specialist",
     experience: "",
-    image: JaiSaini,
+    image: "",
   },
 ];
 
 function Consultants() {
   return (
-    <div className="bg-teal-800 max-w7xl mx-auto px60 p-6">
+    <div className="bg-cyan-600 max-w7xl mx-auto px60 p-6">
       <h1 className="text-3xl font-bold text-center mb-8 text-white">
         Our Expert Doctors
       </h1>
